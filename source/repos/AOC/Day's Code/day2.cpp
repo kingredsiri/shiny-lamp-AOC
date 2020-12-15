@@ -7,11 +7,12 @@ using namespace std;
 
 void day2()
 {
+    string filename = "Input Files/day2.txt";
     ifstream input;
     int count = 0, size = 0;
     string temp;
     int part1Correct = 0, part2Correct = 0;
-    input.open("day2.txt");
+    input.open(filename);
     string numsExpected = "", letterExpected = "";
     while (input >> temp) {
         count++;

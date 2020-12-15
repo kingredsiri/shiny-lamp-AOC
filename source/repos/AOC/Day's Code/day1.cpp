@@ -6,8 +6,9 @@ using namespace std;
 
 void day1() 
 {
+	string filename = "Input Files/day1.txt";
 	ifstream input;
-	input.open("day1.txt");
+	input.open(filename);
 	int temp;
 	int size = 0;
 	while (input >> temp) {
@@ -15,7 +16,7 @@ void day1()
 	}
 	int* arr = new int[size];
 	input.close();
-	input.open("day1.txt");
+	input.open(filename);
 	for (int i = 0; i < size; i++) {
 		input >> arr[i];
 	}

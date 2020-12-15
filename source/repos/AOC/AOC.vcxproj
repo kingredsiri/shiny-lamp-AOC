@@ -138,13 +138,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="day1.cpp" />
-    <ClCompile Include="day2.cpp" />
+    <ClCompile Include="Day%27s Code\day1.cpp" />
+    <ClCompile Include="Day%27s Code\day2.cpp" />
+    <ClCompile Include="Day%27s Code\day3.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="day1.txt" />
-    <Text Include="day2.txt" />
+    <Text Include="Input Files\day1.txt" />
+    <Text Include="Input Files\day2.txt" />
+    <Text Include="Input Files\day3.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Main.h" />
